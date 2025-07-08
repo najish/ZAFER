@@ -1,0 +1,28 @@
+# Ignore Python import-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore node.js import-related files
+node_modules/
+npm-debug.log
+
+# Ignore Java import-related files
+*.class
+*.jar
+
+# Ignore Go import-related files
+vendor/
+
+# Ignore Rust import-related files
+target/
+
+# Ignore .env files (often used for imports/config)
+.env
+.env.*
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
